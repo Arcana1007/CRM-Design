@@ -1,0 +1,466 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	color: #1a1a1a;
+}/*
+.primary_color{
+	color: #1a1a1a;
+}*/
+
+
+/* start calling*/
+
+*{
+	font-family: 'Poppins', sans-serif;
+}
+nav ul.navbar-nav li a{
+	color: #fff !important;
+	font-size: 14px;
+}/*
+nav ul.navbar-nav li {
+	margin-right: 40px;
+
+}
+nav ul.navbar-nav li:last-child {
+	margin-right: 0px;
+
+}*/
+nav ul.navbar-nav li.active a{
+	color: #fff !important;
+  
+  }
+  nav ul.navbar-nav li.active{
+	font-weight: 700;
+  
+  }
+  
+nav ul.navbar-nav{
+	display: flex !important;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+nav ul.navbar-nav li.search input{
+	font-size: 13px;
+
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.075rem;
+    text-align: center;
+    pointer-events: none;
+    color: #000;
+}
+
+.caret a{
+	color: #1a1a1a;
+}
+
+.caret a:last-child{
+	float: right;
+}
+.user-details h4, h6{
+	color: #1a1a1a;
+	font-weight: 500;
+}
+.user-details .user span{
+	font-size: 13px;
+}
+
+.user-details .call, .user-details .mail, .user-details  .whatsapp{
+	width: 24px;
+	height: auto;
+}
+.user-details .pencil{
+	width: 16px;
+	height: auto;
+}
+/*
+.user-details .card.bookmark .card-body{
+	    padding: 20px 20px 10px;
+}*/
+
+.user-details .tally-verified.correct{
+	padding: 10px 10px;
+	background-color: #479B14;
+	border-radius: 0px;
+	color: #fff;
+}
+
+.user-details .tally-verified.wrong{
+	padding: 10px 10px;
+	background-color: #DCDCDC;
+	border-radius: 0px;
+}
+
+.user-details .tally-verified.wrong img, .user-details .tally-verified.correct img{
+	width: 16px;
+	height: auto;
+}
+.tally-verified > span {
+    font-size: 13px;
+}
+.user-details .send .img-fluid{
+	width: 18px;
+	height: auto;
+}
+
+/*pills*/
+
+.pills ul.main-pills li a:active{
+color: #1a1a1a;
+border: 0;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.pills ul.main-pills li a{
+color: #5c5c5c;
+}
+.pills ul.main-pills li a:hover{
+	border:0px;
+}
+.main-pills li a.active{
+	    border: 0px;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+/*content*/
+/*for dashboard.html starts from here ****************************************************************************/
+ #maincontainer {
+margin-top: 30px;
+margin-left: 30px;
+margin-right: 30px;
+}
+#maincontainer p{
+	font-family:'Poppins', sans-serif;
+	font-size: 16px;
+	color: #1A1A1A;
+}
+.heading{
+	font-size: 18px !important;
+	font-weight: 600;
+}
+
+  
+.table-header{
+	font-weight: 600;
+}
+.head{
+	background-color: #3E4095;
+	color: #ffffff;
+}
+.table-data{
+	background-color: #ffffff !important;
+	color: #1a1a1a;
+	font-weight: 600;
+	border-bottom: 1px solid #D9D9D9;
+	padding-right: 30px;
+}
+
+
+.stats p{
+
+	color:#5A5A5A
+}
+.circle {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #F6F6F6;
+    color: #000000;
+    text-align: center;
+    line-height: 50px;
+  }
+  .texty{
+    padding-left:20px;
+  }
+.circle-text{
+	font-weight: 600;
+}
+
+/*for dashboard.html ends here ****************************************************************************/
+
+
+
+
+
+
+.pills table .head{
+background-color: #E9F4FF !important;
+}
+.pills table td.serial{
+text-decoration: none;
+font-weight: 600;
+}
+.pills table td{
+font-size: 14px;
+
+}
+.pills table th, .pills table td{
+color: #1a1a1a;
+
+}
+.pills table p{
+color: #1a1a1a;
+font-weight: 400 !important;
+margin: 0;
+}
+
+/*form*/
+
+.pills .btn-save{
+	background: #1A1A1A;
+border-radius: 4.1958px;
+padding: 5px 50px;
+color: #fff;
+font-weight: 600;
+font-size: 20px;
+margin-bottom: 10px ;
+}
+
+/*engagement pills*/
+
+.engagement-pills li a{
+	color: #1a1a1a;
+}
+.engagement-pills li a.active{
+	border: 2px solid #1A1A1A;
+	border-radius: 5px;
+	background-color: #fff;
+}
+.engagement-pills {
+	background: #F3F3F3;
+border-radius: 5px;
+}
+
+/*graph*/
+
+.radio-buttons-graph .form-check-inline:nth-child(3){
+	    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #a3a3a3;
+}
+.graph-day a {
+	    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #a3a3a3;
+    color: #1a1a1a;
+        font-size: 14px;
+}
+.graph-day a.active{
+    color: #0070FF;
+}
+.graph-day a:last-child{
+	    margin-right: 0px;
+    padding-right: 0px;
+    border-right: 0px;
+}
+
+
+
+
+
+/*sync*/
+
+.sync{
+	height: 420px;
+	overflow-y: scroll;
+}
+
+.sync ul{
+	list-style: none;
+    padding-left: 0px;
+
+}
+.sync li span{
+	float: right;
+}
+.sync li{
+	background-color: #F3F3F3;
+	padding: 5px 10px;
+}
+
+/*connect pills*/
+
+.connect-pills li a{
+	color: #1a1a1a;
+}
+.connect-pills li a.active{
+	border: 2px solid #1A1A1A;
+	border-radius: 5px;
+	background-color: #fff;
+}
+.connect-pills {
+	background: #F3F3F3;
+border-radius: 5px;
+}
+
+/*connect content*/
+ table tr:first-child td {
+    border-top: 0px;
+}
+#PastConnects table tr:nth-child(1) td strong, #PastConnects table tr:nth-child(3) td strong {
+    color: #1a1a1a !important;
+}
+#PastConnects table tr:last-child td {
+    border-bottom: 1px solid #dee2e6 ;
+}
+#PastConnects table tr td {
+   color: #5c5c5c;
+}
+#PastConnects table tr td:last-child {
+    color: #1a1a1a !important;
+}
+
+
+/*ticket*/
+
+#ticket a.btn-add{
+	background-color: #1a1a1a;
+	color: #fff;
+	border-radius: 5px;
+	border: 0px;
+	padding: 5px 30px;
+}
+#ticket a.btn-add:hover{
+	text-decoration: none;
+}
+#create_tickets a{
+	color: #1a1a1a;
+}
+
+#ticket table td.ticket_date{
+text-decoration: none;
+font-weight: 600;
+}
+
+/*create ticket button*/
+
+#create_tickets .btn_create_ticket{
+background: #1A1A1A;
+border-radius: 5px;
+padding: 5px 20px;
+color: #fff;
+font-weight: 600;
+font-size: 20px;
+}
+
+/*upload images*/
+
+#fileList {
+  margin-top: 10px;
+}
+#fileList > div{
+  margin-right: 25px;
+}
+.fileName {
+  display: inline-block;
+  margin-right: 10px;
+  color: #0070FF;
+  font-weight: 600;
+}
+.removeFile {
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+
+.input-file {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+/*  height: 40px;*/
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.input-file input[type=file] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.input-file label {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.input-file label i {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+
+/*ledger pills*/
+.ledger-pills li a{
+	color: #1a1a1a;
+}
+.ledger-pills li a.active{
+	border: 2px solid #1A1A1A;
+	border-radius: 5px;
+	background-color: #fff;
+}
+.ledger-pills {
+	background: #F3F3F3;
+border-radius: 5px;
+}
+
+
+/*ledger content*/
+
+#ledger table td.ledger_id{
+font-weight: 600;
+text-decoration: none;
+}
+#back_to_ladger{
+	color: #1a1a1a;
+}
+
+
+/*activity*/
+
+#pastactivity tr td:nth-child(2){
+	width: 75%;
+}
+#pastactivity {
+	overflow-y: scroll;
+	height: 333px;
+}
+#pastactivity tr td.activity_time{
+	color: #5c5c5c;
+} 
+#pastactivity tr td.activity_through{
+	font-weight: 500;
+}
+
+/*profile*/
+
+#profile_content tr:last-child td{
+	border-bottom: 1px solid #dee2e6;
+
+}
+
+/*os*/
+
+#os tr:last-child td{
+	border-bottom: 1px solid #dee2e6;
+
+}
+

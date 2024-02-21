@@ -1,0 +1,156 @@
+/*for customers dashboard css strtsa from here ****************************************************************************/
+
+.nav-link[data-toggle].collapsed:after {
+	content: "▾";
+  }
+  .nav-link[data-toggle]:not(.collapsed):after {
+	content: "▴";
+  }
+  .nav-item{
+	font-size:16px ;
+  }
+ /* .nav-item h6{
+   padding-left:16px;
+  }*/
+  
+  hr{
+	border-top: none;
+	opacity: 10%;
+  }
+  .customer-details th{
+	font-size: 14px;
+  }
+  .customer-details td{
+	font-size: 12px;
+  }
+
+  
+  /*page numbers*/
+  .pages{
+	color: #1a1a1a;
+  }
+  .perpages{
+	color: #1a1a1a;
+  }
+  
+  .arrow{
+	border: 1px solid #fff;
+	border-radius: 5px;
+	box-shadow: 0px 2.83687px 2.83687px rgba(0, 0, 0, 0.25);
+	padding: 5px 10px;
+	color: #1a1a1a;
+  }
+  .fa.fa-chevron-left{
+	color: #AAAAAA;
+  }
+  .page-no{
+	border: 1px solid #1976D2;
+	background-color:#1976D2 ;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 2.83687px 2.83687px rgba(0, 0, 0, 0.25);
+	padding: 5px 15px;
+  }
+  .customer-details tr th{
+	background-color: #F1F5F9 !important;
+	}
+	.nav-item a{
+		color: #1a1a1a !important;
+	  }
+    .nav-item p{
+      font-size: 12px;
+    }
+    .nav-item{
+      font-size: 12px;
+      font-weight: 500;
+      font-family: 'poppins' sans-serif;
+    }
+.dropdownicon{
+  font-size: 26px;
+  font-weight: 500;
+  padding-left: 0;
+  padding-right: 4px;
+  padding-top: 0px;
+  padding-bottom: 8px;
+  color:#1a1a1a;
+}
+    label.form-check-label {
+        font-size: 12px;
+    }
+    .form-check-label{
+        font-size: 12px;
+    }
+    .h6, h6 {
+        font-size: 14px;
+        font-family: 'poppins' sans-serif;
+        padding-top: 0px;
+        font-weight: 500;
+    }
+    label.sidebar_main_text{
+      font-size: 12px;
+      font-weight: 500;
+      color: #1a1a1a !important;
+    }
+    span{
+      padding-left: 30px;
+    }
+      /* radio button */
+      [type="radio"]:checked,
+      [type="radio"]:not(:checked) {
+          position: absolute;
+          left: -9999px;
+      }
+      [type="radio"]:checked + label,
+      [type="radio"]:not(:checked) + label
+      {
+          position: relative;
+          padding-left: 28px;
+          cursor: pointer;
+          line-height: 20px;
+          display: inline-block;
+          /*color: #666;*/
+      }
+      [type="radio"]:checked + label:before,
+      [type="radio"]:not(:checked) + label:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 18px;
+          height: 18px;
+          border: 4px solid #DFDFDF;
+          border-radius: 100%;
+          background: #fff;
+      }
+      [type="radio"]:checked + label:after,
+      [type="radio"]:not(:checked) + label:after {
+          content: '';
+          width: 14px;
+          height: 14px;
+          background:#0070FF;
+          position: absolute;
+          top: 2px;
+          left: 2px;
+          border-radius: 100%;
+      }
+      [type="radio"]:not(:checked) + label:after {
+          opacity: 0;
+          -webkit-transform: scale(0);
+          transform: scale(0);
+      }
+      [type="radio"]:checked + label:after {
+          opacity: 1;
+          -webkit-transform: scale(1);
+          transform: scale(1);
+      }
+/*for customers dashboard css ends here ****************************************************************************/
+
+img.logo{
+  width:200px;
+}
+#sidebar{
+  width: 215px;
+}
+.space{
+  padding-bottom: 20px;
+}
